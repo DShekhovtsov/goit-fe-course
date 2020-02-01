@@ -1,0 +1,95 @@
+body {
+  padding: 0px; /* Поля вокруг текста */
+  margin: 0px; /* Выравниваем по центру */
+  font-family: "Playfair Display Regular", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-style: normal;
+}
+img {
+  width: 420px;
+  height: 280px;
+}
+header {
+  margin: 0px auto;
+  padding: 0px;
+}
+
+.main-nav {
+  margin: 0px;
+  padding-top: 72px;
+  padding-left: 292px;
+  padding-right: 795px;
+  padding: 72px 164px;
+  width: 901px; /* Ширина элемента в пикселах */
+  
+}
+
+ul {
+ margin: 0px; /* Отступ слева в браузере IE и Opera */
+ padding: 0px; /* Отступ слева в браузере Firefox, Safari, Chrome */
+ list-style: none; /* Убираем маркеры */
+ vertical-align: middle;
+ text-align: center;
+ text-decoration: none;
+ font-family: "Playfair Display", sans-serif;
+ font-size: 14px;
+ line-height: 24px;
+}
+ul a:hover {
+  color: #0099ff;
+}
+li {
+  display: inline;
+  color: #666666;
+}
+.main-menu-item-1 {
+  
+  margin-left: 164px;
+  margin-right: 122px;
+}
+.main-menu-item-2 {
+  margin-right: 103px;
+  }
+  .main-menu-item-3 {
+    margin-right: 95px;
+    }
+    .main-menu-item-4 {
+      margin-left: calc;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+main{
+  width: 901px; /* Ширина элемента в пикселах */
+  margin: 0px auto;
+}
+section {
+  margin-left: 164px;
+  margin-right: 58px;
+}
+
+.block-1 {
+  width: 420px;
+  display: inline-block;
+  height: 475px;
+  width: 50%;
+}
+.block-2 {
+  width: 420px;
+  display: inline-block;
+  height: 475px;
+  width: 50%;
+}
+
+.h2 {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+  font-style: normal;
+  text-decoration: none;
+  color: #666666;
+}
+
