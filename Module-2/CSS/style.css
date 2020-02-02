@@ -12,6 +12,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   font-style: normal;
+  color: #666666;
   width: 901px;
 }
 img {
@@ -76,6 +77,12 @@ main{
 section {
   margin: 0px;
 }
+.section-1 {
+  margin-bottom: 127px;
+}
+.section-2 {
+  margin-bottom: 127px;
+}
 
 .block-1 {
   margin: 0px;
@@ -91,7 +98,48 @@ section {
   display: inline-block;
   height: 475px;
 }
+.block-1 {
+  margin: 0px;
+  margin-right: 61px;
+  width: 420px;
+  display: inline-block;
+  height: 475px;
 
+}
+.block-2 {
+ 
+  width: 420px;
+  display: inline-block;
+  height: 475px;
+}
+.block-3 {
+  margin: 0px;
+  margin-right: 61px;
+  width: 420px;
+  display: inline-block;
+  height: 475px;
+
+}
+.block-4 {
+ 
+  width: 420px;
+  display: inline-block;
+  height: 475px;
+}
+.block-5 {
+  margin: 0px;
+  margin-right: 61px;
+  width: 420px;
+  display: inline-block;
+  height: 475px;
+
+}
+.block-6 {
+ 
+  width: 420px;
+  display: inline-block;
+  height: 475px;
+}
 .h2 {
   font-family: "Playfair Display", sans-serif;
   font-weight: normal;
@@ -100,6 +148,27 @@ section {
   text-decoration: none;
   color: #666666;
 }
+.pui-1 {
+  font-family: "Ubuntu Light", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  font-style: normal;
+  text-decoration: none;
+  color: #cc9999;
+}
 p{
   font-size: 14px;
+}
+.div-button {
+  margin: 0px auto;
+  text-align: center;
+}
+.button {
+  margin: 51px 0px;
+  padding: 17px 33px;
+  border: 1px solid;
+  text-align: center;
+  background-color: white;
+  font-size: 20px;
+  text-transform: uppercase;
 }
