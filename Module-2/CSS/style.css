@@ -1,65 +1,66 @@
 body {
   padding: 0px; /* Поля вокруг текста */
-  margin: 0px; /* Выравниваем по центру */
+  margin: 0px auto; /* Выравниваем по центру */
   font-family: "Playfair Display Regular", sans-serif;
   font-size: 14px;
   line-height: 24px;
   font-style: normal;
+  width: 901px;
 }
 img {
   width: 420px;
   height: 280px;
 }
 header {
-  margin: 0px auto;
+  margin: 0px;
   padding: 0px;
 }
 
-.main-nav {
+nav.main-nav {
+  width: 901px;
   margin: 0px;
-  padding-top: 72px;
-  padding-left: 292px;
-  padding-right: 795px;
-  padding: 72px 164px;
-  width: 901px; /* Ширина элемента в пикселах */
-  
-}
+  padding: 72px 0px;
+  font-size: 0px;
+  }
 
 ul {
  margin: 0px; /* Отступ слева в браузере IE и Opera */
  padding: 0px; /* Отступ слева в браузере Firefox, Safari, Chrome */
  list-style: none; /* Убираем маркеры */
  vertical-align: middle;
- text-align: center;
+ text-align: left;
  text-decoration: none;
- font-family: "Playfair Display", sans-serif;
- font-size: 14px;
- line-height: 24px;
+ color: #666666;
 }
 ul a:hover {
   color: #0099ff;
 }
 li {
-  display: inline;
+ margin: auto;
+  display: inline-block;
   color: #666666;
 }
 .main-menu-item-1 {
-  
   margin-left: 164px;
-  margin-right: 122px;
 }
 .main-menu-item-2 {
-  margin-right: 103px;
+  margin-left: 121px;
   }
   .main-menu-item-3 {
-    margin-right: 95px;
-    }
+    margin-left: 103px;
+  }
     .main-menu-item-4 {
-      margin-left: calc;
+     margin-left: 95px;
     }
 
-    a {
-      text-decoration: none;
+    a {text-decoration: none;
+      position: relative;
+      display: block;
+      overflow: hidden;
+      transition: 0,7s all;
+      padding-right: 20px;
+      font-size: 14px;
+
     }
 
 main{
@@ -67,8 +68,7 @@ main{
   margin: 0px auto;
 }
 section {
-  margin-left: 164px;
-  margin-right: 58px;
+  margin: 0px;
 }
 
 .block-1 {
