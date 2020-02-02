@@ -6,8 +6,8 @@ html{
   box-sizing: inherit;
 }
 body {
-  padding: 0px; /* Поля вокруг текста */
-  margin: 0px auto; /* Выравниваем по центру */
+  padding: 0px;
+  margin: 0px auto; 
   font-family: "Playfair Display Regular", sans-serif;
   font-size: 14px;
   line-height: 24px;
@@ -32,8 +32,8 @@ nav.main-nav {
   }
 
 ul {
- margin: 0px; /* Отступ слева в браузере IE и Opera */
- padding: 0px; /* Отступ слева в браузере Firefox, Safari, Chrome */
+ margin: 0px;
+ padding: 0px;
  list-style: none; /* Убираем маркеры */
  vertical-align: middle;
  text-align: left;
@@ -71,7 +71,7 @@ li {
 
 main{
   font-size: 0px;
-  width: 901px; /* Ширина элемента в пикселах */
+  width: 901px;
   margin: 0px auto;
 }
 section {
@@ -170,5 +170,5 @@ p{
   text-align: center;
   background-color: white;
   font-size: 20px;
-  text-transform: uppercase;
+  text-transform: none;
 }
