@@ -45,30 +45,30 @@ li a:hover {
 }
 li {
  margin: auto;
-  display: inline-block;
-  color: #666666;
+ display: inline-block;
+ color: #666666;
 }
 .main-menu-item-1 {
   margin-left: 164px;
 }
 .main-menu-item-2 {
   margin-left: 121px;
-  }
-  .main-menu-item-3 {
-    margin-left: 103px;
-  }
-    .main-menu-item-4 {
-     margin-left: 95px;
-    }
+}
+.main-menu-item-3 {
+ margin-left: 103px;
+}
+.main-menu-item-4 {
+  margin-left: 95px;
+}
 
-    a {text-decoration: none;
-      position: relative;
-      display: block;
-      overflow: hidden;
-      transition: 0,7s all;
-      font-size: 14px;
-      color: #666666
-    }
+a {text-decoration: none;
+ position: relative;
+ display: block;
+ overflow: hidden;
+ transition: 0,7s all;
+ font-size: 14px;
+ color: #666666
+}
 main{
   font-size: 0px;
   width: 901px;
@@ -103,9 +103,7 @@ section {
   margin-right: 61px;
   width: 420px;
   display: inline-block;
-  height: 475px;
-
-}
+  height: 475px;}
 .block-2 {
  
   width: 420px;
@@ -121,7 +119,7 @@ section {
 
 }
 .block-4 {
- 
+
   width: 420px;
   display: inline-block;
   height: 475px;
@@ -154,9 +152,9 @@ section {
   font-size: 14px;
   font-style: normal;
   text-decoration: none;
-  color: #cc9999;
+  color: #b4ad9e;
 }
-p{
+p {
   font-size: 14px;
 }
 .div-button {
@@ -171,4 +169,5 @@ p{
   background-color: white;
   font-size: 20px;
   text-transform: none;
+  cursor: pointer;
 }
