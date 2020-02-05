@@ -57,6 +57,16 @@ text-transform: uppercase;
   padding: 0px;
   width: 1110px;
 }
+.fp-ul::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
 .fp-h2 {
 clear: both;
 }
