@@ -1,0 +1,78 @@
+html{
+    box-sizing: border-box;
+  }
+  
+  *, *::before, *::after{
+    box-sizing: inherit;
+  }
+
+  * {outline: 1px solid red;}
+
+  body {
+    padding: 0px;
+    margin: 0px auto; 
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-style: normal;
+    color: #666666;
+    width: 1110px;
+    text-decoration: none;
+    text-transform: none;
+  }
+.logo {
+text-align: left;    
+}
+  h2 {
+    text-align: center;
+    font-size: 48px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #515151;
+  }
+.logo {
+float: left;
+}
+ ul {
+ margin: 0px;
+ padding: 0px;
+  list-style: none;  
+ }
+ .main-menu-ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;  
+  float: right;
+  width: 467px;
+ }
+ .main-menu-list-1 {
+  margin: 0px;
+  padding: 0px;
+   float: left;
+ }
+ .main-menu-list-2 {
+  margin: 0px;
+  padding: 0px;
+  float: left;
+}
+.main-menu-list-3 {margin: 0px;
+  padding: 0px;
+  float: left;
+}
+.main-menu-list-4 {margin: 0px;
+  padding: 0px;
+  float: left;
+}
+.main-menu-list-5 {
+  margin: 0px;
+  padding: 0px;
+  float: left;
+}
+.main-menu-list-6 {margin: 0px;
+  padding: 0px;
+  float: left;
+  margin-right: 150px;
+}
+.fp-h2 {
+clear: both;
+}
