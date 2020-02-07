@@ -146,6 +146,7 @@ h2::after {
    text-decoration: none;
    text-transform: uppercase;
    list-style: none;
+   vertical-align: middle;
    color: #ffffff;
    background-color: #323232;
   }
@@ -159,18 +160,18 @@ h2::after {
     margin-bottom: 30px;
   }
   .fp-p1 {
-  display: inline-block;
+ float: left;
     margin: 0px;
-    padding: 0px;
-  }
+    padding-left: 13px;
+    padding-bottom: 2px;
+    }
  .fp-p2 {
-    display: inline-block;
     margin: 0px;
-    padding: 0px;
+    padding-right: 12px;
     text-decoration: none;
     list-style: none;
-
-  }
+    float: right;
+   }
   /* LATEST NEWS SECTION */
   .section-2 {
     margin: 0px;
