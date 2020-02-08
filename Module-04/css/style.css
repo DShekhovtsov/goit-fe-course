@@ -143,6 +143,7 @@ h2::after {
    text-decoration: none;
    text-transform: uppercase;
    color: #ffffff;
+   background-color: #333333;
    position: relative;
   }
   .fp-list:not(:nth-child(4)) {
@@ -154,20 +155,24 @@ h2::after {
   .fp-list:nth-child(n-4) {
     margin-bottom: 30px;
   }
+  .fp-list:hover {
+    background-color: #1abc9c;
+  }
   .fp-p1 {
- display: inline-block;
+    display: inline-block;
     margin: 0px;  
     padding: 0px;
     height: 40px;
     width: 201px;
     padding-left: 13px;
-    padding-bottom: 10px;
-    background-color: #333333;
-    font-family: "Roboto", sans-serif;
+    padding-bottom: 6px;
+    padding-top: 5px;
+   position: relative;
+   position: relative;
+   font-family: "Roboto", sans-serif;
    font-size: 18px;
    line-height: 32px;
    font-weight: 900;
-   position: relative;
     }
  .fp-p2 {
     margin: 0px;
@@ -175,17 +180,21 @@ h2::after {
     height: 40px;
     width: 54px;
     padding-right: 12px;
+    padding-left: 10px;
+    padding-bottom: 6px;
+    padding-top: 5px;
     text-decoration: none;
     list-style: none;
     display: inline-block;
-    background-color: #333333;
-    font-family: "Roboto", sans-serif;
+    position: relative;
+   font-family: "Roboto", sans-serif;
    font-size: 18px;
    line-height: 32px;
    font-weight: 900;
-   position: relative;
-   opacity: 44%;
+   background-color: rgba(255, 255, 255, 0.44)
    }
+    img {margin-bottom: -12px;
+  }
   /* LATEST NEWS SECTION */
   .section-2 {
     margin: 0px;
@@ -220,7 +229,6 @@ h2::after {
   .ln-p2 {
     font-weight: 400;
   }
-
   .button {
     margin: 15px 0px 81px 0px;
     font-size: 16px;
