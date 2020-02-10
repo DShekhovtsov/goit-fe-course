@@ -1,0 +1,59 @@
+/* ОБЩЕЕ для страницы*/
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+/* чтоб родитель не схлопывался */
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+body {
+  margin: 0px auto;
+  padding: 0px;
+  width: 1110px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+}
+.logo {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 32px;
+  color: #666666;
+  list-style: none;
+  text-decoration: none;
+  float: left;
+}
+.logo::first-letter {
+  font-weight: 900;
+  color: #33cc99;
+}
+.mm-ul {
+  padding: 0px;
+  width: 467px;
+  font-weight: 700;
+  color: #000000;
+  float: right;
+}
+.mm-li {
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  list-style: none;
+  text-decoration: none;
+}
+.mm-li:not(:last-child) {
+  padding-right: 30px;
+}
+.section-1 {
+  text-align: center;
+  background-image: ;
+}
