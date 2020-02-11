@@ -25,6 +25,7 @@ body {
   font-family: "Open Sans", sans-serif;
   text-decoration: none;
   background-color: #e9f0fd;
+  letter-spacing: -0.02em;
 }
 header {
   margin: 0px auto;
@@ -100,13 +101,25 @@ header {
   line-height: 54px;
   color: #ffffff;
 }
+.s1-button {
+  margin: 0px auto;
+  padding: 0px;
+  width: 1110px;
+  position: relative;
+}
+.s1-text {
+  margin: 0px auto;
+  padding: 0px;
+  width: 760px;
+  height: 98px;
+}
 .button-left {
   width: 104px;
   height: 104px;
   border: 0px solid #1abc9c;
   position: absolute;
-   top: 200px;
-   left: 0px;
+  top: 0px;
+  left: 0px;
   background-image: url(../img/button-left.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -118,7 +131,7 @@ header {
   height: 104px;
   border: 0px solid #1abc9c;
   position: absolute;
-  top: 200px;
+  top: 0px;
   right: 0px;
   background-image: url(../img/button-right.png);
   background-repeat: no-repeat;
