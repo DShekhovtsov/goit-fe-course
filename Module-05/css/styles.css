@@ -14,17 +14,21 @@ html {
   content: "";
   clear: both;
 }
+img {
+  display: block;
+  max-block-size: 100%;
+  height: auto;
+}
 body {
-  margin: 0px auto;
+  margin: 0px;
   padding: 0px;
-  width: 1110px;
   font-family: "Open Sans", sans-serif;
-  font-size: 14px;
   text-decoration: none;
   background-color: #e9f0fd;
 }
-nav {
-
+header {
+  margin: 0px auto;
+  width: 1110px;
 }
 .logo {
   padding-top: 36px;
@@ -73,11 +77,10 @@ nav {
   color: #1abc9c;
 }
 .section-1 {
-  margin: 0px -250px;
-  width: 1600px;
+  margin: 0px auto;
+  background-image: url(../img/background-image-01.png);
+  background-size: cover;
   height: 600px;
-  text-align: center;
-  background-image: url(background-image-01.png);
   position: relative;
 }
 .h1 {
@@ -100,17 +103,28 @@ nav {
 .button-left {
   width: 104px;
   height: 104px;
-  background-color: 1abc9c;
-  opacity: 45%;
-  border: 0px solid 1abc9c;
-  position: absolute top 200px;
+  border: 0px solid #1abc9c;
+  position: absolute;
+   top: 200px;
+   left: 0px;
+  background-image: url(../img/button-left.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(26, 188, 156, 0.45);
+  border: 0px solid;
 }
 .button-right {
   width: 104px;
   height: 104px;
-  background-color: 1abc9c;
-  opacity: 45%;
-  border: 0px solid 1abc9c;
+  border: 0px solid #1abc9c;
+  position: absolute;
+  top: 200px;
+  right: 0px;
+  background-image: url(../img/button-right.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(26, 188, 156, 0.45);
+  border: 0px solid;
 }
 .h2-new-collection {
   margin: 0px;
@@ -123,7 +137,8 @@ nav {
   text-align: center;
 }
 .section-2 {
-
+margin: 0px auto;
+width: 1110px;
 }
 .h2-new-collection::after {
   margin: 0px auto;
@@ -142,6 +157,7 @@ nav {
 }
 .li-new-collection {
   margin: 0px;
+  margin-bottom: 100px;
   padding: 0px;
   height: 322px;
   width: 255px;
@@ -169,4 +185,23 @@ nav {
   float: right;
 }
 footer {
+  height: 88px;
+  margin: 0px auto;
+  padding: 0px;
   clear: both;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #fefefe;
+  background-color: #323232;
+  background-size: cover;
+}
+.p-footer {
+  margin: 0px;
+  padding: 0px;
+  padding-top: 32px;
+}
+.author {
+color: #46bfa9;
+}
