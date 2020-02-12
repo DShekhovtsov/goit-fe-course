@@ -145,6 +145,7 @@ header {
   background-position: center;
   background-color: rgba(26, 188, 156, 0.45);
   border: 0px solid;
+  cursor: pointer;
 }
 
 .button-right {
@@ -159,6 +160,7 @@ header {
   background-position: center;
   background-color: rgba(26, 188, 156, 0.45);
   border: 0px solid;
+  cursor: pointer;
 }
 
 .h2-new-collection {
@@ -175,6 +177,7 @@ header {
 .section-2 {
   margin: 0px auto;
   width: 1110px;
+  position: relative;
 }
 
 .h2-new-collection::after {
@@ -216,16 +219,34 @@ header {
 
 .p-name {
   margin: 0px;
-  padding: 0px;
+  padding-left: 14px;
+  padding-top: 5px;
   float: left;
 }
 
 .p-price {
   margin: 0px;
-  padding: 0px;
+  padding-left: 12px;
+  padding-top: 5px;
   float: right;
+  width: 54px;
+  height: 40px;
+  background-color: rgba(255,255,255,0.44);
 }
+.li-new-collection:hover{
+  background-color: #1abc9c;
+}
+.overlay {
+  width: 255px;
+  height: 282px;
+  background-color: rgba(102, 102, 102,0.55);
+  border: 11px solid rgba(255, 255, 255,0.55);
 
+}
+.icons-li {
+  list-style: none;
+  text-decoration: none;
+}
 footer {
   height: 88px;
   margin: 0px auto;
