@@ -253,6 +253,11 @@ img {
 .latest-news-p1 {
   font-weight: 600;
   margin-bottom: 37px;
+  padding-top: 11px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+
 }
 
 .latest-news-p1::after {
