@@ -246,7 +246,22 @@ header {
   list-style: none;
 }
 .button-icons-1-3 {
-  width: ;
+  width: 48px;
+  height: 48px;
+  background-color: transparent;
+  border: 1px solid white;
+  cursor: pointer;
+  vertical-align: middle;
+  text-align: center;
+}
+.button-icon-4 {
+  width: 164px;
+  height: 48px;
+  background-color: #323232;
+  border: 1px solid white;
+  cursor: pointer;
+  vertical-align: middle;
+  text-align: center;
 }
 .overlay:hover{
   opacity: 1;
