@@ -185,6 +185,7 @@ header {
 
 .h2-new-collection::after {
   margin: 0px auto;
+  margin-top: 32px;
   width: 164px;
   height: 7px;
   display: block;
