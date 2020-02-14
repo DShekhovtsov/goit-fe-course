@@ -142,11 +142,13 @@ header {
   background-image: url(../img/button-left.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-color: rgba(26, 188, 156, 0.45);
+  background-color: rgba(26, 188, 156, 1);
   border: 0px solid;
   cursor: pointer;
 }
-
+.button-left:hover {
+  background-color: rgba(26, 188, 156, 0.45);
+}
 .button-right {
   margin-top: 225px;
   width: 104px;
@@ -157,9 +159,12 @@ header {
   background-image: url(../img/button-right.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-color: rgba(26, 188, 156, 0.45);
+  background-color: rgba(26, 188, 156, 1);
   border: 0px solid;
   cursor: pointer;
+}
+.button-right:hover {
+  background-color: rgba(26, 188, 156, 0.45);
 }
 
 .h2-new-collection {
