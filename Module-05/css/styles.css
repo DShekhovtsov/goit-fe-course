@@ -23,7 +23,7 @@ html {
 
 img {
   display: block;
-  max-block-size: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -255,13 +255,12 @@ header {
   transform: translateY(100);
   width: 50px;
   height: 50px;
+  background-image: url(../img/icon-01.png);
   background-color: transparent;
   border: 1px solid white;
   cursor: pointer;
 }
-.button-icon-1:hover {
 
-}
 .button-icon-2 {
   position: absolute;
   left: 57px;
@@ -287,12 +286,19 @@ header {
   bottom: 0%;
   width: 166px;
   height: 50px;
+  background-image: url(../img/icon-04.png);
+  background-position: 12px center;
+  background-repeat: no-repeat;
   background-color: #323232;
   border: 1px solid white;
   cursor: pointer;
   font-size: 14px;
   line-height: 32px;
   color: #ffffff;
+}
+
+.buttons-box button:hover{
+  background-color: #1abc9c;
 }
 .buttons-box {
   position: absolute;
