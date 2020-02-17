@@ -39,6 +39,7 @@ body {
 
 .logo {
 margin: 0;
+text-decoration: none;
 }
 .navigation__menu {
   margin: 0;
@@ -48,12 +49,24 @@ margin: 0;
 }
 .navigation__menu-list {
   list-style: none;
-  text-decoration: none;
   align-items: flex-end;
 }
 .navigation__menu-list-a {
-
+  text-decoration: none;
   text-transform: uppercase;
+}
+.amazing-services__p-main {
+  text-align: center;
+}
+.amazing-services__h2 {
+  text-align: center;
+}
+.amazing-services__ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.amazing-services__list {
+  list-style: none;
 }
 
 
@@ -61,8 +74,19 @@ margin: 0;
 
 
 
+.meet-our-team__main-p {
+  text-align: center;
+}
+.meet-our-team__h2 {
+  text-align: center;
+}
+.meet-our-team__ul {
+  display: flex;
+}
 
-
+.overlay__ul {
+  list-style: none;
+}
 
 
 
