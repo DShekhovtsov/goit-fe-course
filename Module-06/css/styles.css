@@ -87,7 +87,9 @@ text-decoration: none;
 .overlay__ul {
   list-style: none;
 }
-
+.footer {
+  display: flex;
+}
 
 
 
