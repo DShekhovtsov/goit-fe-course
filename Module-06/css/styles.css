@@ -291,44 +291,53 @@ body {
 .overlay {
   width: 380px;
   height: 470px;
-  background-image: -moz-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
-  background-image: -webkit-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
-  background-image: -ms-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
+  background-image: -moz-linear-gradient(90deg, rgb(252, 227, 138) 0%, rgb(243, 129, 129) 100%);
+  background-image: -webkit-linear-gradient(90deg, rgb(252, 227, 138) 0%, rgb(243, 129, 129) 100%);
+  background-image: -ms-linear-gradient(90deg, rgb(252, 227, 138) 0%, rgb(243, 129, 129) 100%);
   position: absolute;
   opacity: 0;
 }
+
 .overlay__ul {
   display: flex;
   list-style: none;
   width: 224px;
-  height: 56px;
-  background-position: center;
+  padding-top: 208px;
+  justify-content: center;
 }
+
 .overlay__list {
   width: 55px;
   height: 56px;
   background-color: #fce38a;
-   background-position: center;
-   background-repeat: no-repeat;
-   }
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.overlay__list:hover {
+  background-color: #95e1d3;
+}
+
 .overlay__list:first-child {
   background-image: url(../img/icon-facebook.png);
-
 }
+
 .overlay__list:nth-child(2) {
   background-image: url(../img/icon-twitter.png);
-  
 }
+
 .overlay__list:nth-child(3) {
   background-image: url(../img/icon-pinterest.png);
 }
+
 .overlay__list:last-child {
   background-image: url(../img/icon-instagram.png);
+}
 
-}
-.meet-our-team__list .overlay:hover {
+.meet-our-team__list:hover .overlay {
   opacity: 0.9;
-}
+  transform: translate(-10px, -10px);
+  }
+
 
 /* FOOTER */
 .footer {
@@ -370,22 +379,3 @@ body {
   vertical-align: center;
   border: 1px solid #95e1d3;
 }
-
-
-
-
-
-
-
-
-
-
-/* .Rectangle_14 {
-
-  left: 350px;
-  top: 970px;
-  width: 380px;
-  height: 470px;
-  z-index: 19;
-}*/
-
