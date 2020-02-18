@@ -135,14 +135,14 @@ body {
 }
 
 .amazing-services__list:first-child::before {
-display: inline-block;
-content: "";
-width: 32px;
-height: 31px;
-background-image: url(../img/icon-01.png);
-position: absolute;
-left: -62px;
-top: 1px;
+  display: inline-block;
+  content: "";
+  width: 32px;
+  height: 31px;
+  background-image: url(../img/icon-01.png);
+  position: absolute;
+  left: -62px;
+  top: 1px;
 }
 
 .amazing-services__list:nth-child(2)::before {
@@ -154,49 +154,52 @@ top: 1px;
   position: absolute;
   left: -62px;
   top: 1px;
-  }
+}
 
-  .amazing-services__list:nth-child(3)::before {
-    display: inline-block;
-    content: "";
-    width: 32px;
-    height: 28px;
-    background-image: url(../img/icon-03.png);
-    position: absolute;
-    left: -62px;
-    top: 1px;
-    }
+.amazing-services__list:nth-child(3)::before {
+  display: inline-block;
+  content: "";
+  width: 32px;
+  height: 28px;
+  background-image: url(../img/icon-03.png);
+  position: absolute;
+  left: -62px;
+  top: 1px;
+}
 
-    .amazing-services__list:nth-child(4)::before {
-      display: inline-block;
-      content: "";
-      width: 32px;
-      height: 32px;
-      background-image: url(../img/icon-04.png);
-      position: absolute;
-      left: -62px;
-      top: 1px;
-      }
-      .amazing-services__list:nth-child(5)::before {
-        display: inline-block;
-        content: "";
-        width: 32px;
-        height: 31px;
-        background-image: url(../img/icon-05.png);
-        position: absolute;
-        left: -62px;
-        top: 1px;
-        }
-        .amazing-services__list:last-child::before {
-          display: inline-block;
-          content: "";
-          width: 32px;
-          height: 32px;
-          background-image: url(../img/icon-06.png);
-          position: absolute;
-          left: -62px;
-          top: 1px;
-          }
+.amazing-services__list:nth-child(4)::before {
+  display: inline-block;
+  content: "";
+  width: 32px;
+  height: 32px;
+  background-image: url(../img/icon-04.png);
+  position: absolute;
+  left: -62px;
+  top: 1px;
+}
+
+.amazing-services__list:nth-child(5)::before {
+  display: inline-block;
+  content: "";
+  width: 32px;
+  height: 31px;
+  background-image: url(../img/icon-05.png);
+  position: absolute;
+  left: -62px;
+  top: 1px;
+}
+
+.amazing-services__list:last-child::before {
+  display: inline-block;
+  content: "";
+  width: 32px;
+  height: 32px;
+  background-image: url(../img/icon-06.png);
+  position: absolute;
+  left: -62px;
+  top: 1px;
+}
+
 .amazing-services__p-text {
   font-family: "Roboto";
   font-weight: 400;
@@ -285,8 +288,45 @@ top: 1px;
 }
 
 
+.overlay {
+  width: 380px;
+  height: 470px;
+  background-image: -moz-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
+  position: absolute;
+  opacity: 0;
+}
 .overlay__ul {
+  display: flex;
   list-style: none;
+  width: 224px;
+  height: 56px;
+  position: center
+}
+.overlay__list {
+  width: 55px;
+  height: 56px;
+  background-color: #fce38a;
+}
+.overlay__list:first-child {
+  background-image: url(../img/icon-facebook.png);
+  background-repeat: no-repeat;
+}
+.overlay__list:nth-child(2) {
+  background-image: url(../img/icon-twitter.png);
+  background-repeat: no-repeat;
+}
+.overlay__list:nth-child(3) {
+  background-image: url(../img/icon-pinterest.png);
+  background-repeat: no-repeat;
+}
+.overlay__list:last-child {
+  background-image: url(../img/icon-instagram.png);
+  background-repeat: no-repeat;
+}
+.meet-our-team__list .overlay:hover {
+  opacity: 1;
 }
 
 /* FOOTER */
@@ -306,6 +346,7 @@ top: 1px;
 }
 
 .buttons {
+  display: flex;
   margin: 0px;
 }
 
@@ -339,10 +380,7 @@ top: 1px;
 
 
 /* .Rectangle_14 {
-  background-image: -moz-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
-  background-image: -webkit-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
-  background-image: -ms-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
-  position: absolute;
+
   left: 350px;
   top: 970px;
   width: 380px;
