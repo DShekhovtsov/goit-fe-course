@@ -302,31 +302,32 @@ body {
   list-style: none;
   width: 224px;
   height: 56px;
-  position: center
+  background-position: center;
 }
 .overlay__list {
   width: 55px;
   height: 56px;
   background-color: #fce38a;
-}
+   background-position: center;
+   background-repeat: no-repeat;
+   }
 .overlay__list:first-child {
   background-image: url(../img/icon-facebook.png);
-  background-repeat: no-repeat;
+
 }
 .overlay__list:nth-child(2) {
   background-image: url(../img/icon-twitter.png);
-  background-repeat: no-repeat;
+  
 }
 .overlay__list:nth-child(3) {
   background-image: url(../img/icon-pinterest.png);
-  background-repeat: no-repeat;
 }
 .overlay__list:last-child {
   background-image: url(../img/icon-instagram.png);
-  background-repeat: no-repeat;
+
 }
 .meet-our-team__list .overlay:hover {
-  opacity: 1;
+  opacity: 0.9;
 }
 
 /* FOOTER */
@@ -387,3 +388,4 @@ body {
   height: 470px;
   z-index: 19;
 }*/
+
