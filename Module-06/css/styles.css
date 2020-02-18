@@ -42,37 +42,42 @@ body {
 }
 
 .logo {
-margin: 0;
-text-decoration: none;
-font-weight: 700;
-font-size: 30px;
-color: #95e1d3;
+  margin: 0;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 30px;
+  color: #95e1d3;
 }
+
 .navigation__menu {
   margin: 0;
   width: 491px;
   display: flex;
   justify-content: space-between;
 }
+
 .navigation__menu-list {
   margin: 0px;
   list-style: none;
   align-items: flex-end;
 }
+
 .navigation__menu-list-a {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 400;
   color: #95e1d3;
 }
+
 .navigation__menu-list-a:hover:after {
-content: "";
-display: block;
-width: auto;
-height: 3px;
-background-color: #f38181;
-top: 12px;
+  content: "";
+  display: block;
+  width: auto;
+  height: 3px;
+  background-color: #f38181;
+  top: 12px;
 }
+
 .navigation__menu-list-a:hover {
   color: #f38181;
 }
@@ -86,12 +91,14 @@ top: 12px;
   font-weight: 400;
   margin-bottom: 16px;
 }
+
 .amazing-services__h2 {
   text-align: center;
   font-weight: 700;
   font-size: 30px;
   margin-bottom: 70px;
 }
+
 .amazing-services__h2::after {
   display: block;
   content: "";
@@ -101,25 +108,95 @@ top: 12px;
   margin: 0 auto;
   margin-top: 39px;
 }
+
 .amazing-services__ul {
   display: flex;
   flex-wrap: wrap;
 }
+
 .amazing-services__list {
   margin: 0px;
   list-style: none;
   width: 301px;
+  position: relative;
 }
+
 .amazing-services__list:nth-child(-n+6) {
   margin-left: 99px;
   margin-bottom: 90px;
 }
-.amazing-services__list:nth-child(1) {
+
+.amazing-services__list:first-child {
   margin-left: 92px;
 }
+
 .amazing-services__list:nth-child(4) {
   margin-left: 92px;
 }
+
+.amazing-services__list:first-child::before {
+display: inline-block;
+content: "";
+width: 32px;
+height: 31px;
+background-image: url(../img/icon-01.png);
+position: absolute;
+left: -62px;
+top: 1px;
+}
+
+.amazing-services__list:nth-child(2)::before {
+  display: inline-block;
+  content: "";
+  width: 32px;
+  height: 32px;
+  background-image: url(../img/icon-02.png);
+  position: absolute;
+  left: -62px;
+  top: 1px;
+  }
+
+  .amazing-services__list:nth-child(3)::before {
+    display: inline-block;
+    content: "";
+    width: 32px;
+    height: 28px;
+    background-image: url(../img/icon-03.png);
+    position: absolute;
+    left: -62px;
+    top: 1px;
+    }
+
+    .amazing-services__list:nth-child(4)::before {
+      display: inline-block;
+      content: "";
+      width: 32px;
+      height: 32px;
+      background-image: url(../img/icon-04.png);
+      position: absolute;
+      left: -62px;
+      top: 1px;
+      }
+      .amazing-services__list:nth-child(5)::before {
+        display: inline-block;
+        content: "";
+        width: 32px;
+        height: 31px;
+        background-image: url(../img/icon-05.png);
+        position: absolute;
+        left: -62px;
+        top: 1px;
+        }
+        .amazing-services__list:last-child::before {
+          display: inline-block;
+          content: "";
+          width: 32px;
+          height: 32px;
+          background-image: url(../img/icon-06.png);
+          position: absolute;
+          left: -62px;
+          top: 1px;
+          }
 .amazing-services__p-text {
   font-family: "Roboto";
   font-weight: 400;
@@ -142,12 +219,14 @@ top: 12px;
   margin-bottom: 16px;
   text-align: center;
 }
+
 .meet-our-team__h2 {
   text-align: center;
   font-weight: 700;
   font-size: 30px;
   margin-bottom: 70px;
 }
+
 .meet-our-team__h2::after {
   display: block;
   content: "";
@@ -157,6 +236,7 @@ top: 12px;
   margin: 0 auto;
   margin-top: 39px;
 }
+
 .meet-our-team__p-text {
   font-family: "Roboto";
   font-weight: 400;
@@ -167,13 +247,16 @@ top: 12px;
   min-height: 130px;
   text-align: center;
 }
+
 .meet-our-team__list {
   list-style: none;
   text-decoration: none;
 }
+
 .meet-our-team__list:first-child {
   margin-left: 0px;
 }
+
 .meet-our-team__list:last-child {
   margin-right: 0px;
 }
@@ -182,17 +265,20 @@ top: 12px;
   padding-top: 28px;
   padding-bottom: 5px;
 }
+
 .meet-our-team__p-occupation {
-font-family: "Roboto", sans-serif;
-font-style: italic;
-font-weight: 300;
-line-height: 24px;
-color: #999999;
-padding-bottom: 90px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 24px;
+  color: #999999;
+  padding-bottom: 90px;
 }
+
 .meet-our-team__h2 {
   text-align: center;
 }
+
 .meet-our-team__ul {
   display: flex;
   text-align: center;
@@ -200,7 +286,7 @@ padding-bottom: 90px;
 
 
 .overlay__ul {
-list-style: none;
+  list-style: none;
 }
 
 /* FOOTER */
@@ -210,23 +296,28 @@ list-style: none;
   justify-content: space-between;
   align-items: center;
 }
+
 .footer__p {
   margin: 0px;
 }
+
 .footer__span {
   color: #f38181;
 }
+
 .buttons {
   margin: 0px;
 }
+
 .email {
-font-family: "Roboto", sans-serif;
-font-style: italic;
-font-weight: 300;
-line-height: 24px;
-color: #cccccc;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 24px;
+  color: #cccccc;
 
 }
+
 .button {
   font-weight: 700;
   color: #ffffff;
