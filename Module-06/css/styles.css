@@ -82,6 +82,7 @@ body {
 .navigation__menu-list-a:hover:after {
   opacity: 1;
 }
+
 .navigation__menu-list-a:hover {
   color: #f38181;
 }
@@ -93,6 +94,7 @@ body {
   font-family: "Kaushan Script", sans-serif;
   font-size: 24px;
   font-weight: 400;
+  padding-top: 70px;
   margin-bottom: 16px;
 }
 
@@ -318,6 +320,7 @@ body {
   background-repeat: no-repeat;
   cursor: pointer;
 }
+
 .overlay__list:hover {
   background-color: #95e1d3;
 }
@@ -341,17 +344,13 @@ body {
 .meet-our-team__images-block:hover .overlay {
   opacity: 1;
 
-  }
-  .meet-our-team__images-block:hover {
+}
+
+.meet-our-team__images-block:hover {
   transform: translate(-10px, -10px);
   box-shadow: 10px 10px;
   color: rgb(149, 225, 211);
-  }
-  .meet-our-team__list {
-  }
-
-.meet-our-team__images-block {
-
+}
 
 
 
@@ -367,8 +366,8 @@ body {
   min-height: 62px;
   justify-content: space-between;
   align-items: center;
+  border-top: #e5e5e5 solid 1px;
 }
-
 .footer__p {
   margin: 0px;
 }
@@ -387,7 +386,10 @@ body {
   font-style: italic;
   font-weight: 300;
   line-height: 24px;
+  width: 230px;
+  height: 40px;
   color: #cccccc;
+  border-color: #e5e5e5 solid;
 
 }
 
