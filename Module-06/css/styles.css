@@ -80,10 +80,14 @@ body {
 }
 
 .navigation__menu-list-a:hover:after {
+  transition-duration: 200ms;
+  transition-timing-function: linear;
   opacity: 1;
 }
 
 .navigation__menu-list-a:hover {
+  transition-duration: 200ms;
+  transition-timing-function: linear;
   color: #f38181;
 }
 
@@ -323,6 +327,8 @@ body {
 
 .overlay__list:hover {
   background-color: #95e1d3;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
 }
 
 .overlay__list:first-child {
@@ -342,11 +348,15 @@ body {
 }
 
 .meet-our-team__images-block:hover .overlay {
+  transition-duration: 200ms;
+  transition-timing-function: linear;
   opacity: 1;
 
 }
 
 .meet-our-team__images-block:hover {
+  transition-duration: 200ms;
+  transition-timing-function: linear;
   transform: translate(-10px, -10px);
   box-shadow: 10px 10px;
   color: rgb(149, 225, 211);
