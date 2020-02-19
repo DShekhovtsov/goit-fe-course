@@ -316,6 +316,7 @@ body {
   background-color: #fce38a;
   background-position: center;
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 .overlay__list:hover {
   background-color: #95e1d3;
@@ -337,13 +338,28 @@ body {
   background-image: url(../img/icon-instagram.png);
 }
 
-.meet-our-team__list:hover .overlay {
+.meet-our-team__images-block:hover .overlay {
   opacity: 1;
 
   }
-  .meet-our-team__list:hover {
-    transform: translate(-10px, -10px);
+  .meet-our-team__images-block:hover {
+  transform: translate(-10px, -10px);
+  box-shadow: 10px 10px;
+  color: rgb(149, 225, 211);
   }
+  .meet-our-team__list {
+  }
+
+.meet-our-team__images-block {
+
+
+
+
+
+
+
+
+
 
 /* FOOTER */
 .footer {
