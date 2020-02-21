@@ -1,0 +1,62 @@
+/* GENERAL*/
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  * {
+    margin: 0px auto;
+    padding: 0px;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+/* GENERAL FOR PAGE */
+  body {
+      width: 940px;
+      margin: 0px auto;
+  }
+
+  .main-nav {
+      display: flex;
+  }
+
+  .main-nav__menu {
+      display: flex;
+      justify-content: space-between;
+      width: 480px;
+  }
+
+/* SERVICES */
+.services__h2 {
+    text-align: center;
+}
+.services__text {
+    text-align: center;
+}
+
+.services__menu {
+    width: 920px;
+    display: flex;
+}
+
+/* CONTACT US */
+.contact-us__h2 {
+text-align: center;
+}
+.contact-us__text {
+    text-align: center;
+}
+.buttons-requisites {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
