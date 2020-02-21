@@ -77,38 +77,24 @@ text-align: center;
   flex-wrap: wrap;
   position: relative;
 }
-.buttons-requisites {
+.buttons__requisites {
+  display: block;
   margin: 0px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   width: 459px;
-  height: 214px;
   border-color: rgb(204, 204, 204);
   border-radius: 2px;
   background-color: rgb(255, 255, 255);
 }
-.contuct-us__buttons-name {
+.buttons__requisites-inputs {
   border-style: solid;
   border-width: 1px;
   border-color: rgb(204, 204, 204);
   border-radius: 2px;
+  width: 459px;
   height: 54px;
+  margin-bottom: 27px;
 }
-.contuct-us__buttons-email {
-  border-style: solid;
-  border-width: 1px;
-  border-color: rgb(204, 204, 204);
-  border-radius: 2px;
-  height: 54px;
-}
-.contuct-us__buttons-subject {
-  border-style: solid;
-  border-width: 1px;
-  border-color: rgb(204, 204, 204);
-  border-radius: 2px;
-  height: 54px;
-}
+
 textarea {
   resize: none};
 }
