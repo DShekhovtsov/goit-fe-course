@@ -81,8 +81,46 @@ text-align: center;
   margin: 0px;
   display: flex;
   flex-direction: column;
-  width: 457px;
-  height: 52px;
+  justify-content: space-between;
+  width: 459px;
+  height: 214px;
+  border-color: rgb(204, 204, 204);
+  border-radius: 2px;
+  background-color: rgb(255, 255, 255);
+}
+.contuct-us__buttons-name {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(204, 204, 204);
+  border-radius: 2px;
+  height: 54px;
+}
+.contuct-us__buttons-email {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(204, 204, 204);
+  border-radius: 2px;
+  height: 54px;
+}
+.contuct-us__buttons-subject {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(204, 204, 204);
+  border-radius: 2px;
+  height: 54px;
+}
+textarea {
+  resize: none};
+}
+
+
+.contuct-us__buttons-name {
+  border-style: solid;
+  border-width: 1px;
+}
+.contuct-us__buttons-name {
+  border-style: solid;
+  border-width: 1px;
 }
 
 .contuct-us__buttons-button {
@@ -91,10 +129,16 @@ text-align: center;
   width: 240px;
   height: 66px;
   margin: 0 auto;
+  border: none;
 }
 
-}
 .comments {
-  width: 457px;
-  height: 211px;
-}
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(204, 204, 204);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 459px;
+    height: 214px;
+  }
+  
