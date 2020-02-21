@@ -56,7 +56,13 @@ text-align: center;
     text-align: center;
 }
 .buttons-requisites {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-between;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.contuct-us__buttons-button {
 }
