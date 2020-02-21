@@ -85,10 +85,16 @@ body {
   opacity: 1;
 }
 
-.navigation__menu-list-a:hover {
-  transition-duration: 200ms;
-  transition-timing-function: linear;
-  color: #f38181;
+.navigation__menu:first-child {animation-name: first-li;
+  animation-duration: 4s;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);}
+@keyframes first-li {
+  form {opacity: 0;
+    margin-left: 100px;
+  }
+  to {opacity: 1;
+    margin-left: 0px;
+  }
 }
 
 /* MAIN */
@@ -153,6 +159,7 @@ body {
   position: absolute;
   left: -62px;
   top: 1px;
+
 }
 
 .amazing-services__list:nth-child(2)::before {
@@ -218,10 +225,6 @@ body {
   color: #999999;
   width: 300px;
 }
-
-
-
-
 
 /* SECTION MEET OUR TEAM */
 .meet-our-team__main-p {
@@ -297,7 +300,6 @@ body {
   text-align: center;
 }
 
-
 .overlay {
   width: 380px;
   height: 470px;
@@ -351,7 +353,6 @@ body {
   transition-duration: 200ms;
   transition-timing-function: linear;
   opacity: 1;
-
 }
 
 .meet-our-team__images-block:hover {
@@ -362,14 +363,6 @@ body {
   color: rgb(149, 225, 211);
 }
 
-
-
-
-
-
-
-
-
 /* FOOTER */
 .footer {
   display: flex;
@@ -378,6 +371,7 @@ body {
   align-items: center;
   border-top: #e5e5e5 solid 1px;
 }
+
 .footer__p {
   margin: 0px;
 }
@@ -400,7 +394,6 @@ body {
   height: 40px;
   color: #cccccc;
   border-color: #e5e5e5 solid;
-
 }
 
 .button {

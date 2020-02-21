@@ -27,23 +27,39 @@ html {
 
   .main-nav {
       display: flex;
+      justify-content: space-between;
   }
 
   .main-nav__menu {
+      margin: 0px;
       display: flex;
-      justify-content: space-between;
       width: 480px;
+      list-style: none;
+  }
+  .logo {
+    margin: 0px;
+  }
+  .main-nav__list-a {
+    margin: 0px;
+    text-decoration: none;
   }
 
 /* SERVICES */
+.services {
+  text-align: center;
+}
 .services__h2 {
-    text-align: center;
+
+}
+.services__menu {
+  list-style: none;
 }
 .services__text {
-    text-align: center;
+    
 }
 
 .services__menu {
+    margin: 0px;
     width: 920px;
     display: flex;
 }
@@ -55,14 +71,30 @@ text-align: center;
 .contact-us__text {
     text-align: center;
 }
-.buttons-requisites {
-  display: flex;
-  flex-direction: column; 
-  justify-content: space-between;
-}
 .buttons {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
 }
+.buttons-requisites {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  width: 457px;
+  height: 52px;
+}
+
 .contuct-us__buttons-button {
+  border-radius: 3px;
+  background-color: rgb(254, 209, 54);
+  width: 240px;
+  height: 66px;
+  margin: 0 auto;
+}
+
+}
+.comments {
+  width: 457px;
+  height: 211px;
 }
