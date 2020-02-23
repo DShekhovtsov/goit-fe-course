@@ -83,7 +83,6 @@ img {
 
 /* GENERAL FOR PAGE */
 body {
-  margin: 0px auto;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -102,7 +101,6 @@ body {
   list-style: none;
 }
 
-
 .logo {
   margin: 0px;
   padding-top: 35px;
@@ -120,7 +118,7 @@ body {
   text-decoration: none;
   font-size: 14px;
   font-family: "Montserrat";
-  font-weight: 400;
+  font-weight: 600;
   color: #222222;
   line-height: 2.929;
 }
@@ -147,7 +145,7 @@ body {
   font-family: 'Open Sans';
   color: rgb(119, 119, 119);
   line-height: 1.2;
-  padding-bottom: 144px;
+  padding-bottom: 104px;
 }
 
 .services__menu {
@@ -155,6 +153,7 @@ body {
   width: 920px;
   display: flex;
   list-style: none;
+  padding-bottom: 118px;
 }
 .services__list-name {
   font-size: 18px;
@@ -163,15 +162,36 @@ body {
   font-weight: bold;
   line-height: 4.167;
 }
+.services__list::before {
+  display: block;
+  content: "";
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(254, 209, 54);
+  border-radius: 50%;
+  width: 74px;
+  height: 74px;
+}
+.services__list:first-child::before {
+  background-image: url(../img/icon-01.png);
+}
+.services__list:nth-child(2)::before {
+  background-image: url(../img/icon-02.png);
+}
+.services__list:last-child::before {
+  background-image: url(../img/icon-03.png);
+}
 
 .services__list-text {
     font-size: 14px;
     font-family: "Roboto Slab";
     color: rgb(119, 119, 119);
     line-height: 1.2;
-    width: 271px;
+    width: 286px;
     height: 57px;
-    padding-bottom: 118px;
   }
 
 /* CONTACT US */
