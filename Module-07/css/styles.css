@@ -83,19 +83,21 @@ img {
 
 /* GENERAL FOR PAGE */
 body {
-  width: 940px;
   margin: 0px auto;
   font-family: "Montserrat", sans-serif;
 }
 
 .main-nav {
+  width: 940px;
   display: flex;
   justify-content: space-between;
 }
 
 .main-nav__menu {
   margin: 0px;
+  padding-top: 42px;
   display: flex;
+  justify-content: space-between;
   width: 480px;
   list-style: none;
 }
@@ -103,14 +105,18 @@ body {
 
 .logo {
   margin: 0px;
+  padding-top: 35px;
+  padding-bottom: 95px;
   text-decoration: none;
   font-family: 'Meie Script';
-  font-size: 26px;
+  font-size: 30px;
   color: #fed136;
   line-height: 1.577;
 }
-.main-nav__list-a {
+.main-nav__list {
   margin: 0px;
+}
+.main-nav__list-a {
   text-decoration: none;
   font-size: 14px;
   font-family: "Montserrat";
@@ -124,6 +130,7 @@ body {
 
 /* SERVICES */
 .services {
+  width: 940px;
   text-align: center;
 }
 
@@ -140,6 +147,7 @@ body {
   font-family: 'Open Sans';
   color: rgb(119, 119, 119);
   line-height: 1.2;
+  padding-bottom: 144px;
 }
 
 .services__menu {
@@ -163,10 +171,19 @@ body {
     line-height: 1.2;
     width: 271px;
     height: 57px;
+    padding-bottom: 118px;
   }
 
 /* CONTACT US */
+.contuct-us {
+  background-color: #222222;
+  background-image: url(../img/map-image.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
 .contact-us__h2 {
+  padding-top: 106px;
+  padding-bottom: 18px;
   text-align: center;
     font-size: 40px;
     font-family: "Montserrat";
@@ -182,12 +199,13 @@ body {
     color: rgb(119, 119, 119);
     font-style: italic;
     line-height: 1.2;
+    padding-bottom: 74px;
   }
 
 
 .buttons {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   position: relative;
 }
@@ -204,7 +222,6 @@ body {
   width: 459px;
   border-color: rgb(204, 204, 204);
   border-radius: 2px;
-  background-color: rgb(255, 255, 255);
 }
 
 .buttons__requisites-inputs {
@@ -218,6 +235,7 @@ body {
 }
 
 textarea {
+  margin-left: 28px;
   resize: none;
   border-style: solid;
   border-width: 1px;
@@ -228,15 +246,13 @@ textarea {
   height: 210px;
 }
 
-
 .contuct-us__buttons-name {
   border-style: solid;
   border-width: 1px;
 }
 
-.contuct-us__buttons-name {
-  border-style: solid;
-  border-width: 1px;
+.contuct-us__buttons-btn {
+text-align: center;
 }
 
 .contuct-us__buttons-button {
@@ -244,7 +260,6 @@ textarea {
   background-color: rgb(254, 209, 54);
   width: 240px;
   height: 66px;
-  margin: 0 auto;
   border: none;
   font-size: 18px;
   font-family: "Montserrat";
@@ -252,6 +267,6 @@ textarea {
   font-weight: bold;
   line-height: 1.2;
   text-align: center;
+  margin-bottom: 115px;
+  margin-left: auto;
   }
-  
-}
