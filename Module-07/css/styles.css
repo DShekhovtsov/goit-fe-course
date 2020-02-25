@@ -257,23 +257,31 @@ body {
 .buttons__requisites input[type="name"]:valid {
   outline-color: green;
 }
+
 .buttons__requisites input[type="name"]:invalid {
   outline-color: red;
 }
+
 .buttons__requisites input[type="email"]:valid {
   outline-color: green;
 }
+
 .buttons__requisites input[type="email"]:invalid {
   outline-color: red;
-}.buttons__requisites input[type="subject"]:valid {
+}
+
+.buttons__requisites input[type="subject"]:valid {
   outline-color: green;
 }
+
 .buttons-container textarea:valid {
   outline-color: green;
 }
+
 .buttons-container textarea:invalid {
   outline-color: red;
 }
+
 .buttons__requisites-inputs {
   border-style: solid;
   border-width: 1px;
@@ -282,10 +290,13 @@ body {
   width: 459px;
   height: 52px;
   margin-bottom: 27px;
+  padding-left: 20px;
 }
 
 textarea {
   margin-left: 28px;
+  padding-left: 20px;
+  padding-top: 20px;
   resize: none;
   border-style: solid;
   border-width: 1px;
