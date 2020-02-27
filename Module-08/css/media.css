@@ -1,0 +1,12 @@
+@media (max-width: 768px) {
+  body {
+    background-image: url(../img/main-image-320-540.png);
+    min-height: 540px;
+  }
+    .navigation__menu-list {
+      margin: 0px;
+      margin-top: 34px;
+      margin-bottom: 124px;
+    }
+  }
+  
