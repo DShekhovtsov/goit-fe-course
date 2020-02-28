@@ -20,13 +20,53 @@ img {
   height: auto;
 }
 
+
+/* FONTS */
+/* montserrat-regular - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'),
+       url('../fonts/montserrat-v14-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v14-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-700 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Montserrat Bold'), local('Montserrat-Bold'),
+       url('../fonts/montserrat-v14-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v14-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-300 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'),
+       url('../fonts/roboto-v20-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-v20-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-regular - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'),
+       url('../fonts/roboto-v20-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/roboto-v20-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
 /* PAGE */
 /* GENERAL FOR PAGE */
 body {
   font-family: "Montserrat";
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: cover;
+  background-size: contain;
   text-align: center;
   line-height: 1.2;
 }
@@ -75,19 +115,84 @@ body {
 }
 .searching__tagline {
   font-size: 30px;
+  text-transform: uppercase;
 }
 .searching__text {
   font-size: 18px;
   font-family: "Roboto";
+  font-weight: 300;
+  width: 218px;
+  padding-bottom: 18px;
 }
+
 .finder {
     border-radius: 20px;
     background-color: rgb(255, 78, 80);
     width: 280px;
     height: 40px;
     font-size: 14px;
+    border-color: transparent;
     font-family: "Montserrat";
     color: rgb(255, 255, 255);
     font-weight: bold;
+    margin-bottom: 138px;
 }
+
+/* PARTNERS */
+
+.partners {
+  color: rgb(51, 51, 51);
+  font-size: 14px;
+  font-weight: bold;
+}
+.partners__tagline {
+  padding-top: 68px;
+  padding-bottom: 18px;
+  font-size: 22px;
+  color: rgb(51, 51, 51);
+}
+
+.name {
+    padding-top: 20px;
+    padding-bottom: 18px;
+  }
+  
+.occupation {
+    font-family: "Roboto";
+    font-weight: 300;
+    color: rgb(102, 102, 102);
+    width: 214px;
+    height: 62px;
+  }
+  
+ .partners__button {
+  font-size: 14px;
+  color: rgb(255, 78, 80);
+  font-weight: bold;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 78, 80);
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  width: 284px;
+  height: 44px;
+  margin-bottom: 57px;
+ }
+
+ .partners__list {
+
+ }
+.icons {
+  display: inline-block;
+  content: ""; 
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  background-color: rgb(255, 78, 80);
+  width: 123px;
+  height: 123px;
+  background-image: url("../img/image121-121-01.png");
+
+} 
 

@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 768px) {
   body {
     background-image: url(../img/main-image-320-540.png);
     min-height: 540px;
