@@ -3,25 +3,29 @@
     background-image: url(../img/main-image-320-540.png);
     min-height: 540px;
   }
-    .navigation__menu-list {
-      margin: 0px;
-      margin-top: 34px;
-      margin-bottom: 124px;
-    }
+
+  .navigation__menu-list {
+    margin: 0px;
+    margin-top: 34px;
+    margin-bottom: 124px;
   }
-  @media (min-width: 768px) and (max-width: 1200px) {
-    body {
-      background-image: url(../img/main-image-768-700.png)
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  body {
+    background-image: url(../img/main-image-768-700.png)
   }
+
   .navigation {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
   }
 }
+
 @media (min-width: 1200px) {
   body {
     background-image: url(../img/main-image-1440-700.png)
-}
+  }
 
 }
