@@ -211,16 +211,39 @@ header {
   height: 44px;
   margin-bottom: 57px;
 }
-
-.icons {
+.partners__images-container {
+  width: 121px;
+  position: relative;
+}
+.partners__images {
   display: inline-block;
   content: "";
   border-style: solid;
   border-width: 4px;
   border-color: rgb(255, 255, 255);
   border-radius: 50%;
-  background-color: rgb(255, 78, 80);
-  width: 123px;
-  height: 123px;
-  background-image: url("../img/image121-121-01.png");
+  width: 37px;
+  height: 37px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  right: 0; bottom: 0;
 }
+.ic01 {
+  background-image: url("../img/icon17-17-01.png");
+  background-color: rgb(255, 78, 80);
+}
+.ic02 {
+  background-image: url("../img/icon13-16-02.png");
+  background-color: rgb(255, 165, 7);
+}
+.ic03 {
+  background-image: url("../img/icon17-17-03.png");
+  background-color: rgb(28, 215, 173);
+}
+.ic04 {
+  background-image: url("../img/icon17-16-04.png");
+  background-color: rgb(78, 115, 219);
+}
+
+
