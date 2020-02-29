@@ -78,7 +78,7 @@ body {
   text-align: center;
   line-height: 1.2;
   font-weight: bold;
-  letter-spacing: 0,02em;
+  letter-spacing: 0, 02em;
 }
 
 /* NAVIGATION */
@@ -151,15 +151,14 @@ header {
 }
 
 .finder {
+  cursor: pointer;
   border-radius: 20px;
   background-color: rgb(255, 78, 80);
+  border-color: transparent;
+  color: rgb(255, 255, 255);
   height: 40px;
   font-size: 14px;
-  border-color: transparent;
-  font-family: "Montserrat";
-  color: rgb(255, 255, 255);
   font-weight: bold;
-  cursor: pointer;
 }
 
 /* PARTNERS */
@@ -180,6 +179,7 @@ header {
 .partners__list {
   list-style: none;
 }
+
 .name {
   padding-top: 20px;
   padding-bottom: 18px;
