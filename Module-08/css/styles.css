@@ -78,23 +78,25 @@ body {
   text-align: center;
   line-height: 1.2;
   font-weight: bold;
+  letter-spacing: 0,02em;
 }
 
 /* NAVIGATION */
 
 header {
   position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
-  margin: 0  auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 0 auto;
 }
 
 .navigation__menu {
-  margin: 0  auto;
   width: 190px;
   display: flex;
   justify-content: center;
   list-style: none;
-  padding-top: 20px;
 }
 
 .navigation__menu-list {
@@ -116,7 +118,6 @@ header {
 }
 
 .navigation__menu-list-a {
-
   text-decoration: none;
   font-size: 14px;
   font-family: "Montserrat";
@@ -125,50 +126,39 @@ header {
 }
 
 .logo {
-  margin: 0 auto;
   display: block;
   text-decoration: none;
   font-size: 20px;
   color: rgb(255, 255, 255);
-  padding-top: 114px;
 }
 
 /* SEARCHING */
 .searching {
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 170px;
+  background-color: rgba(26, 25, 21, .5);
   color: rgb(255, 255, 255);
 }
 
 .searching__tagline {
   margin: 0 auto;
-  font-size: 30px;
   text-transform: uppercase;
-  width: 300px;
-  padding-top: 35px;
-  padding-bottom: 15px;
 }
 
 .searching__text {
-  font-size: 18px;
   font-family: "Roboto";
-  font-weight: 300;
-  width: 218px;
-  padding-bottom: 18px;
+  font-weight: 400;
 }
 
 .finder {
   border-radius: 20px;
   background-color: rgb(255, 78, 80);
-  width: 280px;
   height: 40px;
   font-size: 14px;
   border-color: transparent;
   font-family: "Montserrat";
   color: rgb(255, 255, 255);
   font-weight: bold;
-  margin-bottom: 138px;
   cursor: pointer;
 }
 
@@ -188,6 +178,9 @@ header {
   width: 290px;
 }
 
+.partners__list {
+  list-style: none;
+}
 .name {
   padding-top: 20px;
   padding-bottom: 18px;
@@ -215,10 +208,12 @@ header {
   margin-bottom: 57px;
   cursor: pointer;
 }
+
 .partners__images-container {
   width: 121px;
   position: relative;
 }
+
 .partners__images {
   display: inline-block;
   content: "";
@@ -231,23 +226,26 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
-  right: 0; bottom: 0;
+  right: 0;
+  bottom: 0;
 }
+
 .ic01 {
   background-image: url("../img/icon17-17-01.png");
   background-color: rgb(255, 78, 80);
 }
+
 .ic02 {
   background-image: url("../img/icon13-16-02.png");
   background-color: rgb(255, 165, 7);
 }
+
 .ic03 {
   background-image: url("../img/icon17-17-03.png");
   background-color: rgb(28, 215, 173);
 }
+
 .ic04 {
   background-image: url("../img/icon17-16-04.png");
   background-color: rgb(78, 115, 219);
 }
-
-
