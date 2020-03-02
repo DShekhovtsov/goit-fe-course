@@ -1,12 +1,11 @@
 @media (max-width: 768px) {
   .navigation__menu {
     margin: 0 auto;
-    padding-top: 38px;
+    padding-top: 20px;
   }
 
-  .searching {
+  header {
     background-image: url(../img/main-image-320-540.png);
-    padding-top: 170px;
   }
 
   .logo {
@@ -50,7 +49,7 @@
 }
 
 @media (min-width: 768px) and (max-width: 1440px) {
-  .searching {
+  header {
     background-image: url(../img/main-image-768-700.png)
   }
 
@@ -109,7 +108,7 @@
 }
 
 @media (min-width: 1440px) {
-  .searching {
+  header {
     background-image: url(../img/main-image-1440-700.png)
   }
 

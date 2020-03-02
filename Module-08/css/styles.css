@@ -84,7 +84,7 @@ body {
 /* NAVIGATION */
 
 header {
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   left: 0;
   bottom: 0;
@@ -133,7 +133,7 @@ header {
 }
 
 /* SEARCHING */
-.searching {
+header {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(26, 25, 21, .5);
