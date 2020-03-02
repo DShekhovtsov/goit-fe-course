@@ -84,12 +84,16 @@ body {
 /* NAVIGATION */
 
 header {
-  /* position: absolute; */
+  /* position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
-  right: 0;
+  right: 0; */
   margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(26, 25, 21, .5);
+  color: rgb(255, 255, 255);
 }
 
 .navigation__menu {
@@ -133,12 +137,6 @@ header {
 }
 
 /* SEARCHING */
-header {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: rgba(26, 25, 21, .5);
-  color: rgb(255, 255, 255);
-}
 
 .searching__tagline {
   margin: 0 auto;
