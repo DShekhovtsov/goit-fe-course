@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .navigation__menu {
     margin: 0 auto;
     padding-top: 20px;
@@ -48,7 +48,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1440px) {
+@media (min-width: 768px) and (max-width: 1439px) {
   header {
     background-image: url(../img/main-image-768-700.png)
   }
