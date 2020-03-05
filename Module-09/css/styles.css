@@ -10,7 +10,7 @@ html {
 }
 
 * {
-  margin: 0px auto;
+  margin: 0px;
   padding: 0px;
 }
 
@@ -92,14 +92,13 @@ header {
 }
 
 .navigation__menu {
-  width: 190px;
   display: flex;
   justify-content: center;
   list-style: none;
 }
 
 .navigation__menu-list {
-  margin: 0 auto;
+  margin: 0px;
   border-style: solid;
   border-width: 2px;
   border-radius: 18px;

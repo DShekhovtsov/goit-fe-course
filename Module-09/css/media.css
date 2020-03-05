@@ -1,6 +1,6 @@
 @media (max-width: 767px) {
   .navigation__menu {
-    margin: 0 auto;
+    margin: 0px auto;
     padding-top: 20px;
   }
 
@@ -10,7 +10,7 @@
 
   .logo {
     padding-top: 114px;
-    margin: 0 auto;
+    margin: 0px auto;
   }
 
   .searching__tagline {
@@ -54,14 +54,11 @@
   }
 
   .navigation {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    width: 674px;
+      /* width: 674px; */
   }
 
   .navigation__menu {
-    margin: 0;
+    margin: 0px;
     padding-top: 40px;
   }
 
