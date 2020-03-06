@@ -169,6 +169,9 @@ header {
 
 }
 
+.partners__menu {
+  display: flex;
+}
 .partners__list {
   list-style: none;
 }

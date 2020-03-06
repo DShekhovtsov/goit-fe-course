@@ -36,7 +36,9 @@
     padding-bottom: 18px;
     width: 290px;
   }
-
+  .partners__menu {
+    flex-direction: column;
+  }
   .partners__button {
     width: 284px;
     height: 44px;
@@ -82,12 +84,11 @@
   }
 
   .partners__menu {
-    /* display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column;
     flex-wrap: wrap; */
-    /* width: 492px; */
-    height: 520px;
-   
+    /* width: 492px;
+    height: 520px; */
   }
 
   .partners__button {
@@ -120,7 +121,7 @@
 
   .searching__text {
     font-size: 24px;
-    width: 404px;
+    /* width: 404px; */
     padding-bottom: 34px;
   }
 
