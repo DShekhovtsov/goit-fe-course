@@ -21,7 +21,6 @@ html {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  outline: 1px solid red;
 }
 
 @media (min-width: 576px) {
@@ -54,7 +53,6 @@ html {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  outline: 1px solid red;
 }
 
 @media (min-width: 576px) {
@@ -88,7 +86,6 @@ html {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
-  outline: 1px solid red;
 }
 
 .no-gutters {
@@ -112,7 +109,6 @@ html {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
-  outline: 1px solid red;
 }
 
 .col {
@@ -121,7 +117,6 @@ html {
   -ms-flex-positive: 1;
   flex-grow: 1;
   max-width: 100%;
-  outline: 1px solid red;
 }
 
 .row-cols-1 > * {
