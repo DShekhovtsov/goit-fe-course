@@ -75,7 +75,7 @@ html {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
   .container, .container-sm, .container-md, .container-lg, .container-xl {
     max-width: 1140px;
   }

@@ -36,9 +36,11 @@
     padding-bottom: 18px;
     width: 290px;
   }
+
   .partners__menu {
     flex-direction: column;
   }
+
   .partners__button {
     width: 284px;
     height: 44px;
@@ -84,11 +86,9 @@
   }
 
   .partners__menu {
-    /* display: flex; */
-    /* flex-direction: column;
-    flex-wrap: wrap; */
-    /* width: 492px;
-    height: 520px; */
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 520px;
   }
 
   .partners__button {
@@ -121,7 +121,6 @@
 
   .searching__text {
     font-size: 24px;
-    /* width: 404px; */
     padding-bottom: 34px;
   }
 
@@ -131,13 +130,7 @@
   }
 
   .partners__tagline {
-    /* width: 420px; */
     padding-bottom: 30px;
-  }
-
-  .partners__menu {
-    /* display: flex;
-    width: 940px; */
   }
 
   .partners__button {
