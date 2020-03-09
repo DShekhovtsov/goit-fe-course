@@ -1,0 +1,44 @@
+
+page-header
+
+ page-navigation
+
+ container
+
+ site-logo
+   site-logo__link
+
+ site-list
+   site-list__item
+   site-list__link
+
+ site-tittle
+ container
+   site-tittle__subtitle
+   site-tittle__tagline
+   site-tittle__button
+
+page-main
+ section-as
+ container
+   section-as__subtitle
+   section-as__tagline
+   section-as__list
+   section-as__item
+   section-as__icons
+
+ section-mot
+ container
+   section-mot__subtitle
+   section-mot__tagline
+   section-mot__text
+   section-mot__list
+   section-mot__item
+   section-mot__item-img
+   section-mot__item-name
+   section-mot__item-occupation
+
+page-footer
+  footer-box
+    footer-box__text
+    footer-box__inputs
