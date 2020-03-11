@@ -38,6 +38,7 @@ section-mot
  section-mot__list
  section-mot__item
  section-mot__item-img
+ section-mot__item-img--hover
  section-mot__item-name
  section-mot__item-occupation
 
