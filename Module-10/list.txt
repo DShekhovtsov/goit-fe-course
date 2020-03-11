@@ -1,3 +1,4 @@
+link
 
 page-header
 
@@ -12,10 +13,14 @@ site-list
  site-list__item
  site-list__link
 
-site-tittle
-  site-tittle__subtitle
-  site-tittle__tagline
-  site-tittle__button
+site-list-icon
+  site-list-icon__bucket
+  site-list-icon__search
+
+site-title
+  site-title__subtitle
+  site-title__tagline
+  site-title__button
 
 page-main
 section-as
@@ -23,7 +28,8 @@ section-as
  section-as__tagline
  section-as__list
  section-as__item
- section-as__icons
+ section-as__item-service-name
+ section-as__item-text
 
 section-mot
  section-mot__subtitle
@@ -38,6 +44,7 @@ section-mot
 page-footer
   box-01
     box-01__text
+    box-01__link
   box-02
    box-02__email
-   box-02__button
+   box-02__subscribe
