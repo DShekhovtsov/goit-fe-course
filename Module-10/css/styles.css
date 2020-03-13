@@ -1,4 +1,4 @@
-@import "./fonts.css"
+@import "./fonts.css";
 
 /* GENERAL*/
 html {
@@ -21,3 +21,80 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/* PAGE */
+/* GENERAL FOR PAGE */
+body {
+  margin: 0px auto;
+  padding: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  line-height: 1.2;
+  color: #333333;
+}
+
+/* NAVIGATION */
+.page-header {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(26, 25, 21);
+  color: rgb(255, 255, 255);
+}
+
+.page-navigation {
+  margin: 0px auto;
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-logo {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+}
+.site-list {
+  width: 491px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.site-list__link {
+  text-decoration: none;
+  font-weight: 400;
+  color: #fff;
+}
+.site-list__link:after {
+  content: "";
+  display: block;
+  width: auto;
+  height: 3px;
+  background-color: #fff;
+  margin-top: 12px;
+  opacity: 0;
+}
+.site-list__link:hover:after {
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+  opacity: 1;
+}
+.site-list-icon {
+  fill-rule: evenodd;
+  fill: #fff;
+  width: 18px;
+  height: 18px;
+}
+
+.site-title {
+  text-align: center;
+}
+.site-title__tagline {
+    font-size: 150px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.933;
+  }
+/* SECTION AS */
