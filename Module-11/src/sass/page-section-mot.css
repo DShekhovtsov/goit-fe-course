@@ -1,0 +1,106 @@
+/* SECTION_MOT */
+
+.section-mot__text {
+  margin: 0px auto;
+  font-family: "Roboto";
+  font-weight: 400;
+  line-height: 24px;
+  color: #999999;
+  width: 960px;
+  padding-bottom: 90px;
+}
+
+.section-mot__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-mot__item {
+  position: relative;
+}
+
+.section-mot__item-name {
+  padding-top: 28px;
+  padding-bottom: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(51, 51, 51);
+  text-transform: uppercase;
+}
+
+.section-mot__item-occupation {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 24px;
+  color: #999999;
+  padding-bottom: 90px;
+}
+.section-mot__item-img {
+  width: 380px;
+  height: 470px;
+}
+
+/* OVERLAY */
+.overlay__wrapper {
+  width: 380px;
+  height: 470px;
+  background-image: -moz-linear-gradient(90deg, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%);
+  background-image: -webkit-linear-gradient(90deg, rgb(163, 142, 67, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%);
+  background-image: -ms-linear-gradient(90deg, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%);
+  position: absolute;
+  opacity: 0;
+}
+
+.overlay__wrapper:hover .overlay__wrapper {
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+}
+
+.overlay__wrapper:hover {
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+  transform: translate(-10px, -10px);
+  box-shadow: 10px 10px;
+  color: rgb(149, 225, 211);
+  opacity: 1;
+}
+
+.overlay__list {
+  margin: 0px auto;
+  display: flex;
+  list-style: none;
+  width: 224px;
+  padding-top: 208px;
+  justify-content: center;
+}
+
+.overlay__item {
+  width: 55px;
+  height: 56px;
+  background-color: #fce38a;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  position: relative;
+}
+
+.overlay__item:hover {
+  background-color: #f38181;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+}
+
+.socials {
+  fill-rule: evenodd;
+  fill: #f38181;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.overlay__item:hover .socials {
+  fill: #fff;
+}
