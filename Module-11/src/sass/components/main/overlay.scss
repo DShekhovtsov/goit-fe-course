@@ -1,0 +1,49 @@
+.overlay__wrapper {
+  width: 380px;
+  height: 470px;
+  background-image: -moz-linear-gradient(90deg, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%);
+  background-image: -webkit-linear-gradient(90deg, rgba(163, 142, 67, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%);
+  background-image: -ms-linear-gradient(90deg, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%);
+  position: absolute;
+  opacity: 0;
+}
+
+.overlay__wrapper:hover, .overlay__wrapper, .overlay__wrapper:hover, .overlay__item:hover {
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+}
+
+.overlay__wrapper:hover {
+  transform: translate(-10px, -10px);
+  box-shadow: 10px 10px;
+  color: rgb(149, 225, 211);
+  opacity: 1;
+}
+
+.overlay__list {
+  margin: 0px auto;
+  display: flex;
+  list-style: none;
+  width: 224px;
+  padding-top: 208px;
+  justify-content: center;
+}
+
+.overlay__item {
+  width: 55px;
+  height: 56px;
+  background-color: #fce38a;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  position: relative;
+}
+
+.overlay__item:hover {
+  background-color: #f38181;
+}
+
+.overlay__item:hover .socials {
+  fill: #fff;
+}

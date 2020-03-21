@@ -1,0 +1,37 @@
+.section-mot__text {
+  margin: 0px auto;
+  font-family: "Roboto";
+  font-weight: $main-font-weight;
+  line-height: 24px;
+  color: #999999;
+  width: 960px;
+  padding-bottom: 90px;
+}
+
+.section-mot__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-mot__item {
+  position: relative;
+}
+
+.section-mot__item-name {
+  padding-top: 28px;
+  padding-bottom: 5px;
+}
+
+.section-mot__item-occupation {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 24px;
+  color: #999999;
+  padding-bottom: 90px;
+}
+.section-mot__item-img {
+  width: 380px;
+  height: 470px;
+}

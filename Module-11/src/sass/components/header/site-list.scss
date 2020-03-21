@@ -1,0 +1,34 @@
+.site-list {
+  padding-top: 36px;
+  width: 491px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.site-list__link {
+  text-decoration: none;
+  font-weight: $main-font-weight;
+  color: $navigation-color;
+}
+
+.site-list__link:after {
+  content: "";
+  display: block;
+  width: auto;
+  height: 3px;
+  background-color: #ffcc99;
+  margin-top: 12px;
+  opacity: 0;
+}
+
+.site-list__link:hover:after,
+.site-list__link:hover,
+.site-list-icon:hover {
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+  opacity: 1;
+  color: #ffcc99;
+  fill: #ffcc99;
+}
+
